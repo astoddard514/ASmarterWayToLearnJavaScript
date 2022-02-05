@@ -24,3 +24,32 @@ alert(pet);
 
 // 3 - Variables for Numbers
 
+var weight = 150;
+weight + 25
+
+// No quotes for numbers. A zip code would have quotes because JavaScript would handle it like a string of text.  Cannot start a variable name with a number.
+
+var originalNum = 23;
+var newNum = originalNum + 7;
+
+// JavaScript can also handle expressions made up of just variables:
+
+var originalNum = 23;
+var numToBeAdded = 7;
+var newNum = originalNum + numToBeAdded;
+
+// A variable can be used in calculating its own new value.
+
+var originalNum = 90;
+originalNum = originalNum + 10;
+
+// JavaScript cannot sum a string and a number
+
+alert(144);
+
+// or
+
+var caseQty = 144;
+alert(caseQty);
+
+// alert will convert the number to a string and display it.
