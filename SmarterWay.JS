@@ -128,4 +128,49 @@ with
 // - Keywords can be mixed into other unique naming (i.e. `myVar`)
 // - Capital letters are fine, but you have to be consistent with them!
 // - camelCase
-// - Create descriptive variable names. 
+// - Create descriptive variable names.
+
+// 5 - Math expressions: Familiar operators
+
+// Wherever you can use a number, you can use a math expression. `+`, `-`, `*`, and ` 
+
+// `%` is the *modulus operator*. It gives you the remainder when division is executed. if numbers divide evenly, the modulus operation will return 0. 
+
+var whatsLeftOver = 10 % 3;
+
+// `whatsLeftOver` has a value of 1.
+
+// 6 - Math expressions: Unfamiliar operators
+
+// `num++;` is the same as `num = num + 1;` and increments.
+
+// `num--;` decrements
+
+// Werid situation when new variable increments upon previous variable. Only previous variable gets incremented! Not the new variable. 
+
+var num = 1;
+var newNum = num++;
+
+// is actually like:
+
+var num = 1;
+var newNum = num;
+num++;
+
+// If you want to increment *both* you need to arrange the pluses *before* the variable.
+
+var num = 1;
+var newNum = ++num;
+
+// is a short way to say
+
+var num = 1;
+num++;
+var new Num = num;
+
+
+// It works the same way with minuses.
+
+// 7 Math expressions: Eliminating ambiguity
+
+// Use parantheses in complex math operations to clear up precedence confusion.
