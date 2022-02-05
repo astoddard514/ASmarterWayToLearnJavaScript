@@ -53,3 +53,79 @@ var caseQty = 144;
 alert(caseQty);
 
 // alert will convert the number to a string and display it.
+
+// 4 - Variable Names Legal and Illegal
+
+abstract 
+alert 
+as 
+boolean 
+break 
+byte 
+case 
+catch
+char 
+class 
+continue 
+const 
+debugger 
+default 
+delete 
+do 
+double 
+else 
+enum 
+export 
+extends 
+false 
+final 
+finally 
+float 
+for 
+function 
+goto 
+if 
+implements 
+import 
+in 
+instanceof 
+int 
+interface 
+is 
+long 
+namespace 
+native 
+new 
+null 
+package 
+private 
+protected 
+public 
+return 
+short 
+static 
+super 
+switch 
+synchronized 
+this 
+throw 
+throws
+transient 
+true 
+try 
+typeof 
+use 
+var 
+void 
+volatile 
+while 
+with 
+
+// Variable rules:
+
+// - No spaces
+// - Letters, numbers, dollar signs, and underscores only
+// - Keywords can be mixed into other unique naming (i.e. `myVar`)
+// - Capital letters are fine, but you have to be consistent with them!
+// - camelCase
+// - Create descriptive variable names. 
