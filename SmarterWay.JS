@@ -251,3 +251,39 @@ if (x + y === a - b) {
 >=       // </> is greater than or equal to
 
 <=       // is less than or equal to
+
+// 12 - *if...else* and *else if* statements
+
+// `if...else`
+
+var x = prompt("What does a dog wag?");
+if (x === "tail") {
+	alert("Correct!");
+}
+if (x !== "tail" {
+	alert("Wrong answer");
+}
+
+// is more concise using a an else clause
+
+if (x === "tail") {
+	alert("Correct!");
+}
+else {
+	alert("Wrong answer");
+}
+
+// Same styling as if, else clauses can also have multiple statements. 
+
+// `else if`
+
+var correctAnswer = "tail";
+if (x === correctAnswer) {
+  alert("Correct!");
+}
+else if (x === "tale") {
+	alert("Incorrect but close");
+}
+else {
+	alert("Incorrect");
+}
