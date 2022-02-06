@@ -229,3 +229,25 @@ if (x === correctAnswer) {
 	userIQ = "genius";
 	alert("Correct!");
 }
+
+// # 11 - Comparison operators
+
+=== // equality operator
+
+if (fullName === "Mark" + " " + "Myers") {
+if (fullName === firstName + " " + "Myers") {
+if (fullName === firstName + " " + lastName) {
+if (totalCost === 81.50 + 135) {
+if (totalCost === materialsCost + 135) {
+if (totalCost === marterialsCost + laborCost) {
+if (x + y === a - b) {
+
+!==      // not equal to
+
+>        // is greater than
+
+<        // is less than
+
+>=       // </> is greater than or equal to
+
+<=       // is less than or equal to
