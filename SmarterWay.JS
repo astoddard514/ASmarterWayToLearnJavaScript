@@ -287,3 +287,25 @@ else if (x === "tale") {
 else {
 	alert("Incorrect");
 }
+
+// 13 - Testing sets of conditions
+
+&& // and
+
+if (weight > 300 && time < 6) {
+	alert("Come to our tryout!");
+}
+else {
+	alert("Come to our cookout!");
+}
+
+// You can change any number of conditions together.
+
+|| // or
+
+if (SAT > avg || GPA > 2.5 || sport === "football") {
+	alert("Welcome to Bubba State!");
+else {
+	alert("Have you looked into ___?");
+
+// You can combine any number of `&&` and `||` conditions.  Use sets of parentheses to clarify which conditions are pairing up.
