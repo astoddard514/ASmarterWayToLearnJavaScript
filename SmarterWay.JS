@@ -309,3 +309,30 @@ else {
 	alert("Have you looked into ___?");
 
 // You can combine any number of `&&` and `||` conditions.  Use sets of parentheses to clarify which conditions are pairing up.
+
+// 14 - *if* statements nested
+
+if ((x === y || a === b) && c === d) {
+	g = h;
+}
+else {
+	e = f;
+
+// can also be written
+
+if (c === d) {
+	if (x ===y) {
+		g = h;
+	}
+	else if (a === b) {
+		g = h;
+	}
+	else {
+		e = f;
+	}
+}
+else {
+	e = f;
+}
+
+// In the second way, if the first `c === d` statement is false, none of the nested blocks run.
