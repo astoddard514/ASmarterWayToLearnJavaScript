@@ -174,3 +174,13 @@ var new Num = num;
 // 7 Math expressions: Eliminating ambiguity
 
 // Use parantheses in complex math operations to clear up precedence confusion.
+
+// 8 - Concatenating text strings
+
+alert("Thanks, " + userName + "!");
+
+// or
+
+var message = "Thanks, ";
+var banger = "!";
+alert(message + userName + banger); 
