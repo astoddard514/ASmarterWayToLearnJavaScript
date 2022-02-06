@@ -184,3 +184,48 @@ alert("Thanks, " + userName + "!");
 var message = "Thanks, ";
 var banger = "!";
 alert(message + userName + banger); 
+
+// 9 - Prompts 
+
+// Prompt code is like alert code, with two differences. In a prompt, you need a way to capture the user’s response: declare a variable with an equal sign to store the response. In a prompt, you can specificy a second optional string that will be the default reponse displayed in the prompt field.  
+
+var question = "Your species?";
+var defaultAnswer = "human";
+var spec = prompt(question, defaultAnswer);
+
+
+// JavaScript will return string answers even if a user provides a number, which means that “3” + 1 will equal “31” and not 4. 
+
+// `window.prompt` is the same as `prompt`
+
+// 10 - if statements
+
+var x = prompt("What does a dog wag?");
+if (x === "tail") {
+	alert("Correct!");
+}
+
+// Notice the: 
+
+// - space after *if*
+// - condition enclosed in parentheses
+// - triple equals signs
+// - curly brackets
+// - 2-space indent of the action that executes if the condition is true
+// - lack of semicolon for complex statement with curly brackets.
+
+// variables instead of strings
+
+var correctAnswer = "tail";
+if (x === correctAnswer) {
+  alert("Correct!");
+}
+
+// multiple statements execute after condition is met
+
+var correctAnswer = "tail";
+if (x === correctAnswer) {
+	score++;
+	userIQ = "genius";
+	alert("Correct!");
+}
