@@ -353,3 +353,25 @@ var mixedArray = [1, "Bob", "Now is", true];
    - Same naming rules as variables (abc123_$)
    - Makes sense to have plural names for arrays
    - Only need to declare the array once, like variables  */
+
+   // 16 - Arrays: Adding and removing elements
+
+   // You can define an empty array and separately assign items to the array.
+   
+   var pets = [];
+   
+   pets[0] = "dog";
+   pets[1] = "cat";
+   pets[2] = "bird";
+   pets[3] = "lizard";
+   pets[6] = "snake";     // skipping index locations is allowed, but the empty spots will return as undefined
+   
+   // If you assign a new value to an array element that already has one, the old value is replaced by the new one. 
+   
+   pop // removes the last element of an array.
+   
+   var lastElement = pets.pop();
+   
+   push // adds one or more elements to the end of an array. 
+   
+   pets.push("fish", "ferret");
