@@ -336,3 +336,20 @@ else {
 }
 
 // In the second way, if the first `c === d` statement is false, none of the nested blocks run.
+
+// 15 - Arrays
+
+var cities = ["Atlanta",  "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
+
+cities[0] // is “Atlanta”
+
+cities[1] // is “Baltimore”
+
+alert("Welcome to " + cities[3]);
+
+var mixedArray = [1, "Bob", "Now is", true];
+
+/* - Index starts at 0
+   - Same naming rules as variables (abc123_$)
+   - Makes sense to have plural names for arrays
+   - Only need to declare the array once, like variables  */
