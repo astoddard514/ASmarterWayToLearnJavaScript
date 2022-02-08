@@ -375,3 +375,23 @@ var mixedArray = [1, "Bob", "Now is", true];
    push // adds one or more elements to the end of an array. 
    
    pets.push("fish", "ferret");
+
+// 17 - Arrays: Removing and inserting elements
+
+shift - // remove an element from the beginning of an array.
+
+unshift - // add one or more elements to the beginning of the array. 
+
+splice - // insert one or more elements anywhere in an array, while optionally removing one or more elements that come after it. 
+
+pets.splice(2, 2, "pig", "duck", "emu");
+
+// First digit inside the parentheses is the index of the position where you want to start adding if you’re adding and deleting if you’re deleting. The second digit is the number of existing elements to remove, starting with the first element that comes after the element(s) that you’re splicing in. 
+
+// Use the `slice` method to copy one or more consecutive elements in any position and put them into a new array. This will copes elements to the new array `noPets` and leaves the original array `pets`  unaltered. 
+
+var noPets = pets.slice(2, 4);
+
+// First digit is the index of the first element to be copied. Second digit is the index of the element ***after*** the last element to be copied. 
+
+// You have to assign the sliced elements to an array (or modify the original array).
