@@ -395,3 +395,50 @@ var noPets = pets.slice(2, 4);
 // First digit is the index of the first element to be copied. Second digit is the index of the element ***after*** the last element to be copied. 
 
 // You have to assign the sliced elements to an array (or modify the original array).
+
+// 18 - *for* loops
+
+// “99 Bottles of Beer on the Wall” example.
+
+var cleanestCities = ["Cheyenne", "Santa Fe", "Tuscon", "Great Falls", "Honolulu"];
+
+if (cityToCheck === cleanestCities[0]) {
+	alert("It's one of the cleanest cities");
+}
+else if (cityToCheck === cleanestCities[1]) {
+	alert("It's one of the cleanest cities");
+}
+else if (cityToCheck === cleanestCities[2]) {
+	alert("It's one of the cleanest cities");
+}
+else if (cityToCheck === cleanestCities[3]) {
+	alert("It's one of the cleanest cities");
+}
+else if (cityToCheck === cleanestCities[4]) {
+	alert("It's one of the cleanest cities");
+}
+else {
+	alert("It's not on the list");
+}
+
+// Can be more simply written :
+
+for (var i = 0, i <= 4; i++) {
+	if (cityToCheck === cleanestCities[i]) {
+		alert("It's one of the cleanest cities");
+	}
+}
+
+// Arguments in the for loop parentheses:
+
+/* 1. A variable that counts iterations and also serves as the changing array index is declared and set to a starting value (0).
+2. The limit on the loop is defined. In this case, the loop is to keep running as long as the counter doesn’t exceed 4. Since the counter, in this case, is starting at 0, the loop will run 5 times.
+3. What happens to the counter at the end of every loop. In this case, the counter is incremented each time.
+
+Or, more generally:
+
+1. What to call the counter (usually `i`) and what number to start it at (typically 0)
+2. How many loops to run (in this case, the number of elements in the array)
+3. How to change the counter after each iteration (typically to add 1 each time through)
+
+The counter, `i`, serves two purposes: It keeps track of the number of iterations so looping can halt at the right point. And it serves as the index number of the array, allowing the code to progress through all the elements of the array as the counter increments with each iteration. */
